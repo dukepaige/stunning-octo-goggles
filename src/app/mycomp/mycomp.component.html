@@ -1,13 +1,12 @@
-<h1> This is the app component</h1>
-<h1>Angular Router App</h1>
+<p>mycomp works!</p>
+<h1>My component</h1>
 <!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
-<nav>
+<button><nav>
   <ul>
     <li><a routerLink="/myComp" routerLinkActive="active" ariaCurrentWhenActive="page">My Comp</a></li>
-    <li><a routerLink="/rps" routerLinkActive="active" ariaCurrentWhenActive="page">Second Component</a></li>
+    <li><a routerLink="/second-component" routerLinkActive="active" ariaCurrentWhenActive="page">Second Component</a></li>
   </ul>
-</nav>
-<mat-slide-toggle>Toggle me!</mat-slide-toggle>
+</nav></button>
+<button (click)="logMe()"> click this button to log me!</button>
 <!-- The routed views render in the <router-outlet>-->
-
 <router-outlet></router-outlet>
