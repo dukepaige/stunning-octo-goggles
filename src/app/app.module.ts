@@ -7,11 +7,13 @@ import { MycompComponent } from './mycomp/mycomp.component';
 import { RpsComponent } from './rps/rps.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { SplashComponent } from './splash/splash.component';
 @NgModule({
   declarations: [
     AppComponent,
     MycompComponent,
-    RpsComponent
+    RpsComponent,
+    SplashComponent
   ],
   imports: [
     BrowserModule,
